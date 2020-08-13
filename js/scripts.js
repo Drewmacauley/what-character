@@ -18,22 +18,44 @@ $(document).ready(function() {
         if (career === 'writer') {
           $("#celebrity").text("Michael Scott");
         } else if (career === 'graphicD') {
-          $("#celebrity").text("");
+          $("#celebrity").text("Angela Martin");
         } else {
-          $("#celebrity").text("");
+          $("#celebrity").text("Erin Hannon");
         }
       } else if (candy === 'butter') {
         if (career === 'writer') {
-          $("#celebrity").text("Michael Scott");
+          $("#celebrity").text("Creed Bratton");
         } else if (career === 'graphicD') {
-          $("#celebrity").text("");
+          $("#celebrity").text("Andy Bernard");
         } else {
-          $("#celebrity").text("");
+          $("#celebrity").text("Jim Jalpert");
         }
       }
     } else if (paper === 'wrapP') {
-      if (candy === 'female') {
-        $("#celebrity").text("");
+      if (candy === 'm&m') {
+        if (career === 'writer') {
+          $("#celebrity").text("Toby Flenderson");
+        } else if (career === 'graphicD') {
+          $("#celebrity").text("Ryan Howard");
+        } else {
+          $("#celebrity").text("Dwight Schrute");
+        }
+      } else if (candy === 'm&i') {
+        if (career === 'writer') {
+          $("#celebrity").text("Holly Flax");
+        } else if (career === 'graphicD') {
+          $("#celebrity").text("Nellie Bertram");
+        } else {
+          $("#celebrity").text("Jan Levinson");
+        }
+      } else if (candy === 'butter') {
+        if (career === 'writer') {
+          $("#celebrity").text("Kelly Kapoor");
+        } else if (career === 'graphicD') {
+          $("#celebrity").text("Merideth Palmer");
+        } else {
+          $("#celebrity").text("");
+        }
       }
     } else {
       $("#celebrity").text("Stanley Hudson")
