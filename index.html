@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>What Office Character Are You?</title>
+</head>
+<body>
+  <div class="container">
+    <h1>What Office Character Are You?</h1>
+
+    <p>Fill in our quiz below:</p>
+
+    <form id="yourInfo">
+      <label for="paper">What Type of Paper are You?</label>
+      <select id="paper">
+        <option value="cardS">Cardstock</option>
+        <option value="wrapP">Wrapping Paper</option>
+        <option value="newsP">Newspaper</option>
+      </select>
+
+      <label for="candy">Preferred Type of Candy:</label>
+      <select id="candy">
+        <option value="female">M&M</option>
+        <option value="male">Mike and Ikes</option>
+        <option value="other">Butterfinger</option>
+      </select>
+
+      <label for="career">Pick a Career.</label>
+      <select id="career">
+        <option value="female">Writer</option>
+        <option value="male">Graphic Designer</option>
+        <option value="other">CEO</option>
+      </select>
+
+      <label for="mustard">Preferred Mustard</label>
+      <select id="mustard">
+        <option value="female">Grey Poupon</option>
+        <option value="male">Honey Mustard</option>
+        <option value="other">Whole Grain</option>
+      </select>
+
+      <button type="submit" class="btn">Submit</button>
+    </form>
+
+    <div id="result">
+      <p>You are most like <span id="celebrity"></span></p>
+    </div>
+  </div>
+</body>
+</html>
