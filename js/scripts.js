@@ -8,7 +8,7 @@ $(document).ready(function() {
     if (paper === 'cardS') {
       if (candy === 'm&m') {
         if (career === 'writer') {
-          $("#celebrity").text("Phyllis");
+          $("#celebrity").text("Phyllis Vance");
         } else if (career === 'graphicD') {
           $("#celebrity").text("Pam Beesly");
         } else {
@@ -18,7 +18,7 @@ $(document).ready(function() {
         if (career === 'writer') {
           $("#celebrity").text("Michael Scott");
         } else if (career === 'graphicD') {
-          $("#celebrity").text("Angela Martin");
+          $("#celebrity").text("Oscar Martinez");
         } else {
           $("#celebrity").text("Erin Hannon");
         }
@@ -54,7 +54,7 @@ $(document).ready(function() {
         } else if (career === 'graphicD') {
           $("#celebrity").text("Merideth Palmer");
         } else {
-          $("#celebrity").text("");
+          $("#celebrity").text("Robert California");
         }
       }
     } else {
