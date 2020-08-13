@@ -11,7 +11,7 @@ $(document).ready(function() {
           $("#celebrity").text("Phyllis Vance");
         } else if (career === 'graphicD') {
           $("#celebrity").text("Pam Beesly");
-        } else {
+        } else if (career === 'ceo') {
           $("#celebrity").text("Dwight Schrute");
         }
       } else if (candy === 'm&i') {
@@ -19,7 +19,7 @@ $(document).ready(function() {
           $("#celebrity").text("Michael Scott");
         } else if (career === 'graphicD') {
           $("#celebrity").text("Oscar Martinez");
-        } else {
+        } else if (career === 'ceo') {
           $("#celebrity").text("Erin Hannon");
         }
       } else if (candy === 'butter') {
@@ -27,7 +27,7 @@ $(document).ready(function() {
           $("#celebrity").text("Creed Bratton");
         } else if (career === 'graphicD') {
           $("#celebrity").text("Andy Bernard");
-        } else {
+        } else if (career === 'ceo') {
           $("#celebrity").text("Jim Jalpert");
         }
       }
@@ -37,7 +37,7 @@ $(document).ready(function() {
           $("#celebrity").text("Toby Flenderson");
         } else if (career === 'graphicD') {
           $("#celebrity").text("Ryan Howard");
-        } else {
+        } else if (career === 'ceo') {
           $("#celebrity").text("Dwight Schrute");
         }
       } else if (candy === 'm&i') {
@@ -45,7 +45,7 @@ $(document).ready(function() {
           $("#celebrity").text("Holly Flax");
         } else if (career === 'graphicD') {
           $("#celebrity").text("Nellie Bertram");
-        } else {
+        } else if (career === 'ceo') {
           $("#celebrity").text("Jan Levinson");
         }
       } else if (candy === 'butter') {
@@ -53,11 +53,11 @@ $(document).ready(function() {
           $("#celebrity").text("Kelly Kapoor");
         } else if (career === 'graphicD') {
           $("#celebrity").text("Merideth Palmer");
-        } else {
+        } else if (career === 'ceo') {
           $("#celebrity").text("Robert California");
         }
       }
-    } else {
+    } else if (paper === 'newsP') {
       $("#celebrity").text("Stanley Hudson")
     }
 
